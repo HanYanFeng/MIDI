@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8912F12E1FF0D05B009D6DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F12D1FF0D05B009D6DD8 /* AppDelegate.swift */; };
+		8912F1301FF0D05B009D6DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F12F1FF0D05B009D6DD8 /* ViewController.swift */; };
+		8912F1331FF0D05B009D6DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8912F1311FF0D05B009D6DD8 /* Main.storyboard */; };
+		8912F1351FF0D05B009D6DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8912F1341FF0D05B009D6DD8 /* Assets.xcassets */; };
+		8912F1381FF0D05B009D6DD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8912F1361FF0D05B009D6DD8 /* LaunchScreen.storyboard */; };
+		8912F1451FF0D09A009D6DD8 /* OCFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912F1431FF0D09A009D6DD8 /* OCFunction.m */; };
+		8912F1471FF0D0C4009D6DD8 /* MidiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F1461FF0D0C4009D6DD8 /* MidiData.swift */; };
+		8912F14B1FF0D252009D6DD8 /* DBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F1481FF0D252009D6DD8 /* DBModel.swift */; };
+		8912F14C1FF0D252009D6DD8 /* NativeDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8912F14A1FF0D252009D6DD8 /* NativeDBModel.m */; };
+		8912F14E1FF0D69D009D6DD8 /* NetWorkControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F14D1FF0D69D009D6DD8 /* NetWorkControl.swift */; };
+		8912F1501FF0D7E0009D6DD8 /* ScoreModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F14F1FF0D7E0009D6DD8 /* ScoreModels.swift */; };
+		8912F1521FF0D87F009D6DD8 /* DataControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8912F1511FF0D87F009D6DD8 /* DataControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8912F12A1FF0D05B009D6DD8 /* MIDIDBVerification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MIDIDBVerification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8912F12D1FF0D05B009D6DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8912F12F1FF0D05B009D6DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8912F1321FF0D05B009D6DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8912F1341FF0D05B009D6DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8912F1371FF0D05B009D6DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8912F1391FF0D05C009D6DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8912F13F1FF0D078009D6DD8 /* MIDIDBVerification-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MIDIDBVerification-Bridging-Header.h"; sourceTree = "<group>"; };
+		8912F1431FF0D09A009D6DD8 /* OCFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCFunction.m; sourceTree = "<group>"; };
+		8912F1441FF0D09A009D6DD8 /* OCFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFunction.h; sourceTree = "<group>"; };
+		8912F1461FF0D0C4009D6DD8 /* MidiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidiData.swift; sourceTree = "<group>"; };
+		8912F1481FF0D252009D6DD8 /* DBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBModel.swift; sourceTree = "<group>"; };
+		8912F1491FF0D252009D6DD8 /* NativeDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeDBModel.h; sourceTree = "<group>"; };
+		8912F14A1FF0D252009D6DD8 /* NativeDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeDBModel.m; sourceTree = "<group>"; };
+		8912F14D1FF0D69D009D6DD8 /* NetWorkControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkControl.swift; sourceTree = "<group>"; };
+		8912F14F1FF0D7E0009D6DD8 /* ScoreModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreModels.swift; sourceTree = "<group>"; };
+		8912F1511FF0D87F009D6DD8 /* DataControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8912F1271FF0D05B009D6DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8912F1211FF0D05B009D6DD8 = {
+			isa = PBXGroup;
+			children = (
+				8912F12C1FF0D05B009D6DD8 /* MIDIDBVerification */,
+				8912F12B1FF0D05B009D6DD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8912F12B1FF0D05B009D6DD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8912F12A1FF0D05B009D6DD8 /* MIDIDBVerification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8912F12C1FF0D05B009D6DD8 /* MIDIDBVerification */ = {
+			isa = PBXGroup;
+			children = (
+				8912F1511FF0D87F009D6DD8 /* DataControl.swift */,
+				8912F14D1FF0D69D009D6DD8 /* NetWorkControl.swift */,
+				8912F14F1FF0D7E0009D6DD8 /* ScoreModels.swift */,
+				8912F12D1FF0D05B009D6DD8 /* AppDelegate.swift */,
+				8912F12F1FF0D05B009D6DD8 /* ViewController.swift */,
+				8912F1481FF0D252009D6DD8 /* DBModel.swift */,
+				8912F1491FF0D252009D6DD8 /* NativeDBModel.h */,
+				8912F14A1FF0D252009D6DD8 /* NativeDBModel.m */,
+				8912F1461FF0D0C4009D6DD8 /* MidiData.swift */,
+				8912F1441FF0D09A009D6DD8 /* OCFunction.h */,
+				8912F1431FF0D09A009D6DD8 /* OCFunction.m */,
+				8912F1311FF0D05B009D6DD8 /* Main.storyboard */,
+				8912F1341FF0D05B009D6DD8 /* Assets.xcassets */,
+				8912F1361FF0D05B009D6DD8 /* LaunchScreen.storyboard */,
+				8912F1391FF0D05C009D6DD8 /* Info.plist */,
+				8912F13F1FF0D078009D6DD8 /* MIDIDBVerification-Bridging-Header.h */,
+			);
+			path = MIDIDBVerification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8912F1291FF0D05B009D6DD8 /* MIDIDBVerification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8912F13C1FF0D05C009D6DD8 /* Build configuration list for PBXNativeTarget "MIDIDBVerification" */;
+			buildPhases = (
+				8912F1261FF0D05B009D6DD8 /* Sources */,
+				8912F1271FF0D05B009D6DD8 /* Frameworks */,
+				8912F1281FF0D05B009D6DD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MIDIDBVerification;
+			productName = MIDIDBVerification;
+			productReference = 8912F12A1FF0D05B009D6DD8 /* MIDIDBVerification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8912F1221FF0D05B009D6DD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "韩艳锋";
+				TargetAttributes = {
+					8912F1291FF0D05B009D6DD8 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8912F1251FF0D05B009D6DD8 /* Build configuration list for PBXProject "MIDIDBVerification" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8912F1211FF0D05B009D6DD8;
+			productRefGroup = 8912F12B1FF0D05B009D6DD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8912F1291FF0D05B009D6DD8 /* MIDIDBVerification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8912F1281FF0D05B009D6DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912F1381FF0D05B009D6DD8 /* LaunchScreen.storyboard in Resources */,
+				8912F1351FF0D05B009D6DD8 /* Assets.xcassets in Resources */,
+				8912F1331FF0D05B009D6DD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8912F1261FF0D05B009D6DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8912F14B1FF0D252009D6DD8 /* DBModel.swift in Sources */,
+				8912F1451FF0D09A009D6DD8 /* OCFunction.m in Sources */,
+				8912F14E1FF0D69D009D6DD8 /* NetWorkControl.swift in Sources */,
+				8912F1301FF0D05B009D6DD8 /* ViewController.swift in Sources */,
+				8912F1501FF0D7E0009D6DD8 /* ScoreModels.swift in Sources */,
+				8912F1521FF0D87F009D6DD8 /* DataControl.swift in Sources */,
+				8912F1471FF0D0C4009D6DD8 /* MidiData.swift in Sources */,
+				8912F14C1FF0D252009D6DD8 /* NativeDBModel.m in Sources */,
+				8912F12E1FF0D05B009D6DD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8912F1311FF0D05B009D6DD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8912F1321FF0D05B009D6DD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8912F1361FF0D05B009D6DD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8912F1371FF0D05B009D6DD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8912F13A1FF0D05C009D6DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8912F13B1FF0D05C009D6DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8912F13D1FF0D05C009D6DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = MIDIDBVerification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winelectr.Blemidi.MIDIDBVerification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MIDIDBVerification/MIDIDBVerification-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8912F13E1FF0D05C009D6DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SYXE6Z733G;
+				INFOPLIST_FILE = MIDIDBVerification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.winelectr.Blemidi.MIDIDBVerification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MIDIDBVerification/MIDIDBVerification-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8912F1251FF0D05B009D6DD8 /* Build configuration list for PBXProject "MIDIDBVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F13A1FF0D05C009D6DD8 /* Debug */,
+				8912F13B1FF0D05C009D6DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8912F13C1FF0D05C009D6DD8 /* Build configuration list for PBXNativeTarget "MIDIDBVerification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8912F13D1FF0D05C009D6DD8 /* Debug */,
+				8912F13E1FF0D05C009D6DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8912F1221FF0D05B009D6DD8 /* Project object */;
+}
