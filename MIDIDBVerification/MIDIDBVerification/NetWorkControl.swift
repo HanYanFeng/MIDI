@@ -11,7 +11,7 @@ typealias 网络访问回调类型 = ( _ succed : Bool,_ reasion :String?, _ bac
 
 class NetWorkControl: NSObject {
     static func 加载所有曲谱信息(back : @escaping 网络访问回调类型){
-        let urlStr = "http://121.41.128.49:9017/win_piano/main/getAll"//
+        let urlStr = "保密"//
         postWithPath(path: urlStr, paras: ["platformType":"9","appVersion": "1.0.9"], success: { (any) in
             let data = any as? [String:AnyObject]
             if let data = data {
@@ -47,7 +47,7 @@ class NetWorkControl: NSObject {
             "appVersion":"1.0.9"
         ]
         
-        getWithPath(path: "http://121.41.128.49:9017" + "/qin_plus/main/getMusicItem", paras: sendDara, success: { (any) in
+        getWithPath(path: "保密", paras: sendDara, success: { (any) in
             if  let data =  any as? [String : AnyObject] {
                 if let item = data["item"] as? [String : AnyObject]{
                     if let backValue = ScoreDetail(dic: item) {
